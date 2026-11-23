@@ -45,6 +45,7 @@ export default function App() {
       {/* Navbar */}
       <header className="navbar">
         <h1 className="logo">Loreal Store</h1>
+        <h1 className="logo">Contact</h1>
         <button className="cart-btn" onClick={() => setIsCartOpen(!isCartOpen)}>
           Cart ({totalItems})
         </button>
