@@ -44,7 +44,7 @@ export default function App() {
     <div className="store-container">
       {/* Navbar */}
       <header className="navbar">
-        <h1 className="logo">UrbanStore</h1>
+        <h1 className="logo">Loreal Store</h1>
         <button className="cart-btn" onClick={() => setIsCartOpen(!isCartOpen)}>
           Cart ({totalItems})
         </button>
